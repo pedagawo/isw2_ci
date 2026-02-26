@@ -7,7 +7,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    stepts:
+    steps:
       - users: actions/checkout@v3
       
       - name: Set up Python
@@ -24,7 +24,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     needs: lint
-    stepts:
+    steps:
       - uses: actions/checkout@v3
       
       - uses: actions/setup-python@v4
