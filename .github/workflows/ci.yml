@@ -10,7 +10,7 @@ jobs:
   sanity:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "CI OK"
+      - run: echo "CI OKEY"
   lint:
     runs-on: ubuntu-latest
     steps:
