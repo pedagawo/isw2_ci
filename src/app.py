@@ -1,11 +1,9 @@
-# app.py
+# Se quitó el API_KEY hardcodeada y se corrigió la función
 
-API_KEY = "1234-ISW-SECRET"
+def sumar(a: float, b: float) -> float:
 
-def sumar(a, b):
-    resultado = a + b
-    x = 10
-    return resultado
+    return a + b
 
-def restar(a, b):
+
+def restar(a: float, b: float) -> float:
     return a - b
